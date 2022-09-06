@@ -311,7 +311,7 @@ background-color: #7FFFD4;
 
 background-color: #FFB6C1;
 border: 1px dashed black;
-padding: 4px;
+line-height: 33px;
 
 }
 
@@ -339,5 +339,41 @@ display: block;
 .coral h3 {
 
 color: rgb(180, 92, 240);
+
+}
+
+
+.coral div {
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+.logo-ita{
+
+width: 9%;  
+margin-right: 5px;  
+}
+
+.p-inline{
+
+display: inline-block;  
+margin-bottom: 10px; 
+    
+}
+
+
+.btn-violet{
+
+background-color: rgb(189, 95, 252);
+color: white;
+padding: 7px;
+border-radius: 12px;   
 
 }
