@@ -40,13 +40,36 @@ flex-wrap: wrap;
     line-height: 25px;
 }
 
+.colum{
+
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+
+}
+
+.colum > h3 {
+display: contents;
+
+}
+
+.colum > span {
+
+    background-color: rgb(177, 130, 238);
+    color: white;
+    padding: 7px;
+    border-radius: 12px;
+    margin-top: 3%;
+
+}
+
 
 
 
 
 .head-link{
 
-    margin-left: 35%;
+    margin-left: 10%;
     margin-top: 9px;
 
 }
@@ -66,7 +89,7 @@ margin-bottom: 31px;
 
  background-color: white;
  color: black;
-padding: 7px;
+ padding: 7px;
  border-radius: 12px;   
 }
 
@@ -242,8 +265,6 @@ line-height: 24px;
 
 
 
-
-
 .revert{
 
  flex-direction: row-reverse;   
@@ -256,12 +277,7 @@ line-height: 24px;
     background-color: #D3D3D3;
 }
 
-.green{
 
-background-color: #228B22;
-width: 100%;
-min-height: 500px;
-}
 
 .black{
 
@@ -296,5 +312,32 @@ background-color: #7FFFD4;
 background-color: #FFB6C1;
 border: 1px dashed black;
 padding: 4px;
+
+}
+
+
+
+.first-child li{
+
+color: black;
+display: block;
+padding-top: 30px;
+
+}
+
+
+.second-child li{
+
+color: white;
+display: block;
+
+}
+
+
+
+
+.coral h3 {
+
+color: rgb(180, 92, 240);
 
 }
