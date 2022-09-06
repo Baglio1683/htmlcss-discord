@@ -37,13 +37,10 @@ flex-wrap: wrap;
 
 p{
 
-    width: 42%;
-    line-height: 25px;
-    text-align: center;
-    margin-left: 26%;
-    margin-right: 9%;
+
     color: white;
-    margin-top: 30px;
+    inline-size: max-content;
+    line-height: 25px;
 
 }
 
@@ -58,9 +55,9 @@ p{
 h1{
 
 color: white;    
-margin-top: 73px;
 text-align: center;
-
+font-size: xx-large;
+margin-bottom: 31px;
 
 }
 
@@ -182,10 +179,9 @@ min-height: 300px;
 .pink{
 
 background-color: #ee82ee;
-height: 200px;
-margin-right: 50px;
-margin-left: 50px;
-width: 67%;
+min-height: 200px;
+text-align: -webkit-center;
+
 
 }
 
