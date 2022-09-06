@@ -413,3 +413,18 @@ min-height: 88px;
 margin-right: 5px;
 
 }
+
+
+.wave-gray{
+
+filter:opacity(0.17); 
+margin-bottom: -4px;
+
+}
+
+.wave-white{
+
+transform: rotate(180deg);
+ filter: opacity(0.17); 
+
+}
