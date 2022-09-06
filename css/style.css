@@ -33,16 +33,16 @@ flex-wrap: wrap;
 }
 
 
-
-
-p{
-
+.pink > p {
 
     color: white;
     inline-size: max-content;
     line-height: 25px;
-
 }
+
+
+
+
 
 .head-link{
 
@@ -108,8 +108,14 @@ h2{
 
 display: inline-block;
 background-color: #20B2AA;
+font-size: xx-large;
 
 }
+
+.first-h2{
+margin-top: 33px;    
+}
+
 
 
 
@@ -201,17 +207,42 @@ justify-content: center;
 
 }
 
+.img-size{
+
+width: 85%;
+
+}
+
+
+
 .azure{
 background-color: #1e90ff;
-height: 220px;
 width: 65%;
 }
 
 .light-pink{
 background-color: #FFC0CB; 
-height: 220px;
 width: 35%;
 }
+
+
+.light-pink > p, h2 {
+
+text-align: initial;
+display: block;
+}
+
+.light-pink > p{
+
+font-size: 14px;
+margin-top: 23px; 
+line-height: 24px;
+
+}
+
+
+
+
 
 .revert{
 
